@@ -1,0 +1,107 @@
+.dashboard-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f0f2f5;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.dashboard-panel {
+  background: white;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.dashboard-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.dashboard-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border: 3px solid #007bff;
+}
+
+.dashboard-role {
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+  text-transform: uppercase;
+}
+
+.dashboard-info {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.dashboard-info p {
+  margin: 0.5rem 0;
+}
+
+.dashboard-actions button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.dashboard-actions button:hover {
+  background-color: #0056b3;
+}
+
+.logout-btn {
+  background-color: #dc3545;
+}
+
+.logout-btn:hover {
+  background-color: #b02a37;
+}
+
+.dashboard-error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.dashboard-loader {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 4rem;
+}
+
+
+.dashboard-status {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 3px;
+}
+
+.status-active {
+  background-color: #28a745; /* vert */
+}
+
+.status-inactive {
+  background-color: #dc3545; /* rouge */
+}
